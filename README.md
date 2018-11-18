@@ -10,16 +10,16 @@ To deploy this project you will need to:
 3. Install `create-react-app`
 4. Install `google-maps-react`
 5. API credentials:
-	a. Obtain API credentials from Google Maps and FourSquare
-	b. Either add your APIs in the App.js and MapCotainer.js files directly or create a CredentialVariable.js file under the 'Credentials' directory and popoulate with the following lines and your API keys
-* export const GoogleAPI_Key = ''
-* export const FourSquareClientID = ''
-* export const FourSquareClientSecret = ''
+	1. Obtain API credentials from Google Maps and FourSquare
+	2. Either add your APIs in the App.js and MapCotainer.js files directly or create a CredentialVariable.js file under the 'Credentials' directory and populate with the following lines and your API keys
+		* export const GoogleAPI_Key = ''
+		* export const FourSquareClientID = ''
+		* export const FourSquareClientSecret = ''
 6. After libraries have been installed then run `npm start` to deploy the server
-7. If a browser doesn't automatically open then you can acess via [http://localhost:3000](http://localhost:3000) to view it in the browser.
+7. If a browser doesn't automatically open then you can access via [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Production Mode
-When redy to deploy this for production:
+When ready to deploy this for production:
 1. In the project directory run `npm run build`
 2. If not already installed, run `npm install -g serve` then `serve -s build`
 3. Access via [http://localhost:5000](http://localhost:5000)
