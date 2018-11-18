@@ -12,9 +12,9 @@ To deploy this project you will need to:
 5. API credentials:
 	a. Obtain API credentials from Google Maps and FourSquare
 	b. Either add your APIs in the App.js and MapCotainer.js files directly or create a CredentialVariable.js file under the 'Credentials' directory and popoulate with the following lines and your API keys
-		export const GoogleAPI_Key = ''
-		export const FourSquareClientID = ''
-		export const FourSquareClientSecret = ''
+		* export const GoogleAPI_Key = ''
+		* export const FourSquareClientID = ''
+		* export const FourSquareClientSecret = ''
 6. After libraries have been installed then run `npm start` to deploy the server
 7. If a browser doesn't automatically open then you can acess via [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
