@@ -17,8 +17,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
-/src/Credentials/CredentialVariables.js
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src\Credentials\CredentialVariables.js
